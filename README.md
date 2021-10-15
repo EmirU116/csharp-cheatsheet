@@ -4,10 +4,10 @@ Keyword |                  Summary                   | Sample Code | Mentioned I
 ------- | ------------------------------------------ | ------------ | ------------
 `;`     | Used to separate statements from each other.| `int i = 5; i++; Console.WriteLine(i);` | [Script Execution](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#0-script-execution)
 `//`    | Used for single-line comments              | `float multiplier = 0.01f; // % to float (e.g. 24% = 0.24)` | [Comments](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#single-line-comments)
-Variable Initialization | When a value is assigned to a variable for the first time | `int a = 5;` | [Variables](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#variable-initialization)
+Variable Initialization | When a value is assigned to a variable for the first time | `=` | [Variables](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#variable-initialization)
 `dotnet new console -o project-name` | Create a new project | `dotnet new console -o name` | [Dotnet](https://github.com/marczaku/csharp-basics/blob/main/slides/003.1-hello-world.md#1-create-a-project)
 Script Execution Order | It executes the script from top to bottom | `Starts Script from ↑ Goes ↓`| [Execution order](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#0-script-execution)
-Formatting | String Method:You can put variable in the string without using + | `Console.writeline($"text");` | [Formatting](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
+Formatting | String Method:You can put variable in the string without using $ | `Console.writeline($"text");` | [Formatting](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
 `Console.WriteLine` | Prints out data | `Console.WriteLine();` | [Print](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#1-printing-output)
 `Console.Write` | Prints out data like WriteLine but the diffrence is, is that WriteLine prints under each other, Write prints on the same row | `Console.Write();` | [Print](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#1-printing-output)
 Multi-Line Comment | If you need to type a large comment | `/* and */`| [Comment](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#2-comments)
@@ -31,7 +31,7 @@ Explicit Casting | Big numbers to small | `Idk honestly`| [Conversion](https://g
 Type Conversion | ? | ? | ?
 `Convert.ToInt32` | This converts variables to integer | `Convert.Toint32` | [Conversion](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#5-conversion)
 Operators | Functions that are presented by symbols, they executes operation and return the result | `number /= 2;number *= 5;number -= 3;number %= 9;` | [Operator](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
-Arithmetic Operators | Is for Mathimatical operations | `int e = 5 + 5;` | [Operator](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+Arithmetic Operators | 2 Numbers into a variable | `int e = 5 + 5;` | [Operator](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `+` | This adds togheter | `+` | [Operator](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `-` | This substracts | `-` | [Operator](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `*` | This mulieplies | `*` | [Operator](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
@@ -44,7 +44,7 @@ Arithmetic Operators | Is for Mathimatical operations | `int e = 5 + 5;` | [Oper
 Post-Increment `i++` | the value is increased by 1, but the value used is still the old one | `i++` | [Operator](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 Pre-Increment `++i` | the value is increased by 1 and then the already increased value is used. | `++i` | [Operator](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `System.Math` | Its a math class | `System.Math` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
-`static` | Its a class | `static` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
+`static` | something which cannot be instantiated | `static` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
 `Math.Max` | Its a function that finds the biggest number | `Math.Max(2, 5);` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
 `Math.Min` | Its a function that finds the lowest number | `Math.Min(2, 5);` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
 `Math.Sqrt` | ? | ? | ?
